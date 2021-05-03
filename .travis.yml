@@ -1,2 +1,11 @@
 language: java
-c87daf3f9b69aa462f8e3048a620a1a6b7356184
+
+
+addons:
+  sonarcloud:
+    organization: "sophierosem"
+      secure: "5ddb2192ea66d08062bbddb3d63e73fb15f86685" # encrypted value of your token
+
+script:
+  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  - sonar-scanner
