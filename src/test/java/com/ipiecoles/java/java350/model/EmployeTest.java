@@ -9,7 +9,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 
 import java.time.LocalDate;
 
-class EmployeTest {
+public class EmployeTest {
 
     //senarios de test, 1 senario = 1 test
 
